@@ -28,3 +28,5 @@ The Education Platform is a comprehensive web-based application designed to faci
    ```sh
    git clone https://github.com/styloraushan/learning-platform.git
    cd learning-platform
+
+![educ](https://github.com/styloraushan/learning-platform/assets/142259385/a88552c2-0116-49b6-92b4-afa8390c0031)
