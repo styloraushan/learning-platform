@@ -43,3 +43,14 @@ The Concept of this Platform is a web application with a totally different archi
 ## Contributing
 Contributions are welcome! Please fork the repository and create a pull request with your changes.
 
+## student Dashboard
+![educ](https://github.com/styloraushan/learning-platform/assets/142259385/770f02c7-e4cf-49ba-8b1a-dd69fbb05309)
+
+## Quize Feature
+![quiz](https://github.com/styloraushan/learning-platform/assets/142259385/69f13cfd-a806-41c8-bf1b-4a3e4998b255)
+
+## translate features
+![trans](https://github.com/styloraushan/learning-platform/assets/142259385/3ee29a4e-33b7-43cf-bc6b-8dcd2a8d97a8)
+
+## Responsiveness
+![responsive](https://github.com/styloraushan/learning-platform/assets/142259385/7e296ea0-dc07-4b0c-ac3e-3a67c055b196)
