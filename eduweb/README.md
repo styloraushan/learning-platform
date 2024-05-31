@@ -11,7 +11,7 @@ The Concept of this Platform is a web application with a totally different archi
 - **Notes**: Allow teachers and students to add and share notes.
 - **Assignments**: Create and manage assignments, with submission tracking and grading.
 - **Progress Tracking**: Monitor student progress with detailed analytics and reports.
-- **Discussion Forums**: Facilitate student-teacher and peer discussions.
+- **Translation Feature**: Supports multiple languages for broader accessibility.
 - **Notifications**: Keep users informed about course updates, assignment deadlines, and other important events.
 - **Admin Panel**: Comprehensive administrative controls for managing users, courses, and site settings.
 
