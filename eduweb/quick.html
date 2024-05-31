@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>home</title>
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+   <link rel="stylesheet" href="css/style.css">
+   
+</head>
+<body>
+
+<header class="header">
+   
+   <section class="flex">
+
+      <a href="home.html" class="logo">Let's Learn</a>
+
+      <form action="search.html" method="post" class="search-form">
+         <input type="text" name="search_box" required placeholder="search courses..." maxlength="100">
+         <button type="submit" class="fas fa-search"></button>
+      </form>
+      <div class="icons">
+         <div id="menu-btn" class="fas fa-bars"></div>
+         <div id="search-btn" class="fas fa-search"></div>
+         <div id="user-btn" class="fas fa-user"></div>
+         <div id="toggle-btn" class="fas fa-sun"></div>
+         <div><a href="quiz.html">Quiz</a></div>
+      </div>
+          <div class="profile">
+         <img src="raushan.jpg" class="image" alt="">
+         <h3 class="name">Raushan kumar</h3>
+         <p class="role">student</p>
+         <a href="profile.html" class="btn">view profile</a>
+         <div class="flex-btn">
+            <a href="login.html" class="option-btn">login</a>
+            <a href="register.html" class="option-btn">register</a>
+         </div>
+      </div>
+
+   </section>
+
+</header>   
+
+<div class="side-bar">
+
+   <div id="close-btn">
+      <i class="fas fa-times"></i>
+   </div>
+
+   <div class="profile">
+      <img src="raushan.jpg" class="image" alt="">
+      <h3 class="name">Raushan kumar</h3>
+      <p class="role">student</p>
+      <a href="profile.html" class="btn">view profile</a>
+   </div>
+   <nav class="navbar">
+      <a href="home.html"><i class="fas fa-home"></i><span>Home</span></a>
+      <a href="about.html"><i class="fa-solid fa-address-card"></i><span>About</span></a>
+      <a href="courses.html"><i class="fas fa-graduation-cap"></i><span>Courses</span></a>
+      <a href="teachers.html"><i class="fas fa-chalkboard-user"></i><span>Teachers</span></a>
+      <a href="translate.html"><img src="images/gs.png" alt="translate" >  <span>Translate</span></a>
+      <a href="contact.html"><i class="fas fa-headset"></i><span>Contact us</span></a>
+    </nav>
+</div>
+<section class="home-grid">
+   <!-- <div class="image"><img src="images/contact-img.svg" alt=""></div>
+   <div><p>let's us come together to educate the world!</p></div> -->
+   <h1 class="heading">quick options</h1>
+   <div class="box-container">
+
+      <div class="box">
+         <h3 class="title">Trending Technologies</h3>
+         <div class="flex">
+            <a href="#"><img src="https://cdn-icons-png.flaticon.com/512/7364/7364323.png"style="height: 18px; width:21px"><span>Artificial intelligence</span></a>
+            <a href="#"> <img src="https://cdn-icons-png.flaticon.com/128/4319/4319147.png"style="height: 18px; width:21px"><span>Cloud computing</span></a>
+            <a href="#"><img src="https://cdn-icons-png.flaticon.com/128/10651/10651905.png"style="height: 18px; width:21px"><span>Hadoop</span></a>
+            <a href="#"><img src="https://cdn-icons-png.flaticon.com/128/5687/5687273.png"style="height: 18px; width:21px"><span>devOps</span></a>
+            <a href="#"><img src="https://cdn-icons-png.flaticon.com/128/2821/2821637.png"style="height: 18px; width:21px"><span>Data science</span></a>
+            <a href="#"><img src="https://cdn-icons-png.flaticon.com/128/4616/4616734.png"style="height: 18px; width:21px"><span>Machine learning</span></a>
+         </div>
+      </div>
+      <div class="box">
+         <h3 class="title">popular topics</h3>
+         <div class="flex">
+            <a href="https://www.w3schools.com/html/html_intro.asp"><i class="fab fa-html5"></i><span>HTML</span></a>
+            <a href="#"><i class="fab fa-css3"></i><span>CSS</span></a>
+            <a href="#"><i class="fab fa-java"></i><span>java</span></a>
+            <a href="#"><i class="fa-solid fa-c"></i><span>C<sup>++</sup></span></a>
+            <a href="#"><i class="fab fa-python"></i><span>python</span></a>
+            <a href="#"><i class="fab fa-js"></i><span>javascript</span></a>
+            <a href="#"><i class="fab fa-react"></i><span>react</span></a>
+            <a href="#"><i class="fab fa-php"></i><span>PHP</span></a>
+            <a href="#"><i class="fab fa-bootstrap"></i><span>bootstrap</span></a>
+         </div>
+      </div>
+      <div class="box">
+         <h3 class="title">top categories</h3>
+         <div class="flex">
+            <a href="#"><i class="fas fa-camera"></i><span>photography</span></a>
+            <a href="#"><i class="fas fa-chart-simple"></i><span>business</span></a>
+            <a href="#"><i class="fas fa-pen"></i><span>design</span></a>
+            <a href="#"><i class="fas fa-cog"></i><span>software</span></a>
+            <a href="#"><i class="fas fa-vial"></i><span>science</span></a>
+            <a href="#"><i class="fas fa-chart-line"></i><span>marketing</span></a>
+            <a href="#"><i class="fas fa-music"></i><span>music</span></a>
+            <a href="#"><i class="fas fa-code"></i><span>development</span></a>
+         </div>
+      </div>
+      <div class="box">
+         <h3 class="title">become a tutor</h3>
+         <p class="tutor">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis, nam?</p>
+         <a href="teachers.html" class="inline-btn">get started</a>
+      </div>
+      <div class="box">
+         <h3 class="title">latest Tutorials</h3>
+         <div class="flex">
+            <a href="#"><span>Swagger</span></a>
+            <a href="#"><span>splunk</span></a>
+            <a href="#"><span>SPSS</span></a>
+            <a href="#"><span>Regex</span></a>
+            <a href="#"><span>ReactJs</span></a>
+            <a href="#"><span>RxJs</span></a>
+            <a href="#"><span>Tumblr</span></a>
+            <a href="#"><span>python pillow</span></a>
+            <a href="#"><span>R programming</span></a>
+          
+         </div>
+      </div>
+     
+      <div class="box">
+         <h3 class="title">testing Tutorial</h3>
+         <div class="flex">
+            <a href="#"><span>Selenium</span></a>
+            <a href="#"><span>Junit</span></a>
+            <a href="#"><span>Software testing</span></a>
+            <a href="#"><span>Jira</span></a>
+            <a href="#"><span>ETL</span></a>
+            <a href="#"><span>QA</span></a>
+            <a href="#"><span>Agile</span></a>
+            <a href="#"><span>RPA</span></a>
+            <a href="#"><span>Manual testing</span></a>
+            <a href="#"><span>Cucumber</span></a>
+         </div>
+      </div>
+      <div class="box">
+         <h3 class="title">Preparation</h3>
+         <div class="flex">
+            <a href="#"><span>Self introduction</span></a>
+            <a href="#"><span>Aptitude</span></a>
+            <a href="#"><span>Reasoning</span></a>
+            <a href="#"><span>Verbal Ability</span></a>
+            <a href="#"><span>Interview question</span></a>
+            <a href="#"><span>Company uestion</span></a>
+         </div>
+      </div>
+      <div class="box">
+         <h3 class="title">likes and comments</h3>
+         <p class="likes">total likes : <span>25</span></p>
+         <a href="#" class="inline-btn">view likes</a>
+         <p class="likes">total comments : <span>12</span></p>
+         <a href="#" class="inline-btn">view comments</a>
+         <p class="likes">saved playlists : <span>4</span></p>
+         <a href="#" class="inline-btn">view playlists</a>
+      </div>
+   </div>
+
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<footer class="footer">
+
+   &copy; copyright &hearts; by <span>Raushan kumar</span> | all rights reserved!
+</footer>
+
+<!-- custom js file link  -->
+<script src="js/script.js "></script> 
+
+   
+</body>
+</html> 

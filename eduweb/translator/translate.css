@@ -1,0 +1,273 @@
+/* Import Google Font - Poppins */
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500;600;700&display=swap');
+/* Import Google Font - Poppins */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+body{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 10px;
+  min-height: 100vh;
+  background-color: #ff9ff3;
+}
+.container{
+  max-width: 690px;
+  width: 100%;
+  padding: 30px;
+  background: #fff;
+  border-radius: 7px;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.01);
+}
+.container a img{
+  height: 22px ; 
+  width:24px;
+}
+
+.container a img:hover{
+  height: 23px ; 
+  width:25px;
+} 
+  
+.wrapper{
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+.wrapper .text-input{
+  display: flex;
+  border-bottom: 1px solid #ccc;
+}
+.text-input .to-text{
+  border-radius: 0px;
+  border-left: 1px solid #ccc;
+}
+.text-input textarea{
+  height: 250px;
+  width: 100%;
+  border: none;
+  outline: none;
+  resize: none;
+  background: none;
+  font-size: 18px;
+  padding: 10px 15px;
+  border-radius: 5px;
+}
+.text-input textarea::placeholder{
+  color: #b7b6b6;
+}
+.controls, li, .icons, .icons i{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.controls{
+  list-style: none;
+  padding: 12px 15px;
+}
+.controls .row .icons{
+  width: 38%;
+}
+.controls .row .icons i{
+  width: 50px;
+  color: green;
+  font-size: 14px;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+  justify-content: center;
+}
+.controls .row.from .icons{
+  padding-right: 15px;
+  border-right: 1px solid #ccc;
+}
+.controls .row.to .icons{
+  padding-left: 15px;
+  border-left: 1px solid #ccc;
+}
+.controls .row select{
+  color: #333;
+  border: none;
+  outline: none;
+  font-size: 18px;
+  background: none;
+  padding-left: 5px;
+}
+.text-input textarea::-webkit-scrollbar{
+  width: 4px;
+}
+.controls .row select::-webkit-scrollbar{
+  width: 8px;
+}
+.text-input textarea::-webkit-scrollbar-track,
+.controls .row select::-webkit-scrollbar-track{
+  background: #fff;
+}
+.text-input textarea::-webkit-scrollbar-thumb{
+  background: #ddd;
+  border-radius: 8px;
+}
+.controls .row select::-webkit-scrollbar-thumb{
+  background: #999;
+  border-radius: 8px;
+  border-right: 2px solid #ffffff;
+}
+.controls .exchange{
+  color: red;
+  cursor: pointer;
+  font-size: 16px;
+  transition: transform 0.2s ease;
+}
+.controls i:active{
+  transform: scale(0.9);
+}
+.container button{
+  width: 100%;
+  padding: 14px;
+  outline: none;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  margin-top: 20px;
+  font-size: 17px;
+  border-radius: 5px;
+  background: #5372F0;
+}
+ .fas.fa-volume-up:hover::after {
+  content: "Speaker";
+  position: absolute;
+  color: blue;
+  padding: 5px;
+  margin-top: -30px; 
+  margin-left: 10px; 
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.fas.fa-volume-up:hover::after {
+  opacity: 1;
+}
+.fas.fa-copy:hover::after {
+  content: "Copy";
+  position: absolute;
+  color: blue;
+  padding: 5px;
+  margin-top: -30px; 
+  margin-left: 7px; 
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.fas.fa-copy:hover::after {
+  opacity: 1;
+}
+.container a {
+  position: relative;
+  display: inline-block;
+}
+
+.container a::after {
+  content: "Home";
+  position: absolute;
+  bottom: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 5px;
+  color: blue;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+  pointer-events: none;
+}
+
+.container a:hover::after {
+  opacity: 1;
+}
+
+.container img {
+  max-width: 100px;
+  height: auto;
+  display: block;
+  margin-bottom: 20px; 
+}
+@media (max-width: 660px){
+  .container{
+    padding: 20px;
+  }
+  .wrapper .text-input{
+    flex-direction: column;
+  }
+  .text-input .to-text{
+    border-left: 0px;
+    border-top: 1px solid #ccc;
+  }
+  .text-input textarea{
+    height: 200px;
+  }
+  /* .controls .row .icons{
+    display: none;
+  } */
+  .container button{
+    padding: 13px;
+    font-size: 16px;
+  }
+  .controls .row select{
+    font-size: 16px;
+  }
+  .controls .exchange{
+    font-size: 14px;
+  }
+
+
+
+
+
+  .controls .row {
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 10px; 
+  }
+
+  .controls .row select,
+  .controls .exchange {
+    margin: 5px 0; 
+  }
+
+  .container button {
+    margin-top: 15px; 
+  }
+  .controls .row .icons {
+    padding: 2px; 
+    border-right: none;
+
+  }
+  .controls .row .icons i {
+    padding-right: 20px; 
+  }
+  .controls .row.to .icons{
+   
+    border-left: none;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
